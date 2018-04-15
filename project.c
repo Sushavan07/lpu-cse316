@@ -12,12 +12,12 @@ struct process {
 
 struct process queue1[100], queue2[100], queue3[100] ;
 
-int rear1 = -1 ;
-int front1 = -1 ;
-int rear2 = -1 ;
-int front2 = -1 ;
-int rear3 = -1 ;
-int front3 = -1 ;
+int rear1 = -2;
+int front1 = -2 ;
+int rear2 = -2;
+int front2 = -2 ;
+int rear3 = -2;
+int front3 = -2 ;
 
 
 void queue1Push(struct process proc) {
